@@ -1,0 +1,1 @@
+# solocamp.by.hyogo
