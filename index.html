@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>安室ダムでのキャンプ</title>
+    <link rel="stylesheet" href="solocamp.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="site">
+        <img src="img/solocamp-w.png" alt="ソロキャンプ"><br>
+        <img src="img/yasumurodamu-w.png" alt="安室ダムキャンプ場">
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">周辺情報</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">営業時間</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="nav-button" 
+       onclick="navFunc()">
+        <span class="sr-only">MENU</span></button>
+    </header> <!--サイト名＋ナビ-->
+
+    <div class="hero">
+      <h1>
+        <img src="img\catch-w.svg" alt="Let's try camp">
+      </h1>
+    </div> <!--ヒーロー-->
+
+    <article class="menu container">
+      <div class="menu-inner">
+        <div class="menu-title">
+          <h2>Solocamp Style</h2>
+          <p>1人キャンプの過ごし方を紹介します</p>
+        </div>
+
+        <section class="item tento">
+          <div class="text">
+            <h3>拠点を決めてテント・タープを設置</h3>
+            <p>夜になると作業が制限されるため、明るい日中に寝床と作業スペースを確保する。</p>
+          </div>
+          <div class="photo">
+            <figure class="fig1"><img src="img/tento.jpg" alt="テント・タープ"></figure>
+          </div>
+        </section>
+
+        <section class="item bbq">
+          <div class="text">
+            <h3>キャンプで小BBQ</h3>
+            <p>夕食では、B5サイズのコンロで、牛肉・鶏肉（セセリともも）を炭火で焼きました。味付けは、アウトドアスパイスで有名なほりにしを使用しました。</p>
+          </div>
+          <div class="photo">
+            <figure class="fig1"><img src="img/niku.jpg" alt="肉・焼き鳥の加工"></figure>
+          </div>
+        </section>
+
+        <section class="item breakf">
+          <div class="text">
+            <h3>ホットサンドに挑戦</h3>
+            <p>朝食にふさわしいパン・卵・ベーコンでホットサンドを作りました。コーヒーと一緒に食し、至福の朝を迎えました。</p>
+          </div>
+          <div class="photo">
+            <figure class="fig1"><img src="img/hotsand.jpg" alt="朝食・ホットサンド"></figure>
+          </div>
+        </section>
+      </div>
+    </article> <!---->
+
+    <aside class="news container">
+      <h2>What's New</h2>
+      <p>最近の状態＆新着情報です。</p>
+
+      <dl>
+        <dt>2022年11月7日</dt>
+        <dd>情報なし</dd>
+
+        <dt>2022年5月24日</dt>
+        <dd>平日の為、利用者は少なめです。奥のキャンプ場まで行くと、電波が届かなくなります。奥にもトイレは、完備されています。</dd>
+      </dl>
+
+      <a href="#" class="more">お知らせ一覧</a>
+    </aside> <!---->
+
+    <aside class="hours container">
+      <h2>HOURS</h2>
+      <p>営業時間</p>
+
+      <dl>
+        <dt>毎日</dt>
+        <dd>am 0:00 ~ am 0:00 (24h)<br>受付なし。無料。</dd>
+      </dl>
+
+    </aside> <!---->
+
+    <aside class="info container">
+      <div class="text">
+        <h2>
+          <img src="img/yasumurodamu-b.png" alt="安室ダムキャンプ場"> 
+        </h2>
+        <p>キャンプ場</p>
+        <p class="address">
+          〒〒678-1256<br>
+          兵庫県赤穂郡上郡町八保
+        </p>
+
+        <ul class="sns">
+          <li><a href="#"><img src="img\twitter.logo.svg" alt="twitter"></a></li>
+          <li><a href="#"><img src="img/f-logo-w.svg" alt="Facebook"></a></li>
+          <li><a href="#"><img src="img\insta-logo.svg" alt="Instagram"></a></li>
+        </ul>
+      </div>
+
+      <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6546.404833730154!2d134.2887796793827!3d34.876276666223106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35545b23cd3a008f%3A0xf26817c3d275be42!2z5a6J5a6k44OA44Og44Kt44Oj44Oz44OX5aC0!5e0!3m2!1sja!2sjp!4v1667864422471!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </aside> <!---->
+
+    <footer class="footer">
+      COPYRIGHT © 安室ダムキャンプ場
+    </footer>
+
+    <script>
+      function navFunc() {
+        document.querySelector('html').classList.toggle('open');
+      }
+    </script>
+
+  </body>
+</html>
