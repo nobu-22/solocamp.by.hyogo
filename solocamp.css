@@ -65,7 +65,7 @@ a:hover {
 
 /*ヒーロー*/
 .hero {
-  background-image: url(img/huukei.jpg);
+  background-image: url(https://github.com/nobu-22/solocamp.by.hyogo/blob/main/huukei.jpg?raw=true);
   background-position: center;
   background-size: cover;
   background-color: var(--darkgray);
@@ -106,7 +106,7 @@ body {
 }
 
 .hero::after {
-  content: url(img/arrow.svg);
+  content: url(https://raw.githubusercontent.com/nobu-22/solocamp.by.hyogo/e9038da60666c5908a7511b83c3fb6d9defcf81d/arrow.svg);
   display: block;
   width: 0.16rem;
   padding: 0.18rem 0.3rem 0.1rem;
@@ -357,7 +357,7 @@ body {
 }
 
 .item h3::before {
-  content: url(img/mark-fire.svg);
+  content: url(https://raw.githubusercontent.com/nobu-22/solocamp.by.hyogo/e9038da60666c5908a7511b83c3fb6d9defcf81d/mark-fire.svg);
   display: block;
   width: 0.4rem;
   margin-right: 0.1rem;
@@ -516,7 +516,7 @@ body {
 }
 
 .item.bbq .photo::after {
-  content: url(img/maru.svg);
+  content: url(https://raw.githubusercontent.com/nobu-22/solocamp.by.hyogo/fae241551aa909407f2dfec3788c53585678e6f7/maru.svg);
   display: block;
   width: 30vw;
   position: absolute;
@@ -526,7 +526,7 @@ body {
 }
 
 .item.breakf .photo::after {
-  content: url(img/maru.svg);
+  content: url(https://raw.githubusercontent.com/nobu-22/solocamp.by.hyogo/fae241551aa909407f2dfec3788c53585678e6f7/maru.svg);
   display: block;
   width: 32vw;
   position: absolute;
@@ -579,7 +579,7 @@ body {
 
 /*What's New*/
 .news {
-  background-image: url(img/texture.jpg);
+  background-image: url(https://github.com/nobu-22/solocamp.by.hyogo/blob/main/texture.jpg?raw=true);
   background-repeat: repeat;
 }
 
@@ -615,7 +615,7 @@ body {
 }
 
 .news .more::after {
-  content: url(img/arrow.svg);
+  content: url(https://raw.githubusercontent.com/nobu-22/solocamp.by.hyogo/fae241551aa909407f2dfec3788c53585678e6f7/arrow.svg);
   display: block;
   margin-left: 0.11rem;
   width: 0.18rem;
@@ -651,7 +651,7 @@ body {
 
 /*HOURS*/
 .hours {
-  background-image: url(img/takibi.jpg);
+  background-image: url(https://github.com/nobu-22/solocamp.by.hyogo/blob/main/takibi.jpg?raw=true);
   background-position: center;
   background-size: cover;
   color: var(--white);
